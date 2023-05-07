@@ -8,7 +8,7 @@ html {
 
 *, ::before, ::after {
     padding: inherit;
-    margin: inherit;
+    margin: inherit;-
     box-sizing: border-box;
 }
 
