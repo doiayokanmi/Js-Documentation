@@ -179,6 +179,15 @@ main ul li ul li {
     #closeMenu {
         display: block;
     }
+
+    main {
+        padding: 0.5em;
+    }
+
+    main ul li {
+        padding: 5px 0.5em;
+        margin: 0 0 0 30px;
+    }
 }
 
 
