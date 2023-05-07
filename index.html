@@ -9,7 +9,7 @@
         <link rel="icon" href="js.png">
         <title>JavaScript Documentation || Damilola Ibrahim</title>
     </head>
-    <body>
+    <body id="body">
 
         <!-- Nav Bar Section -->
         <nav id="navbar">
@@ -17,21 +17,27 @@
                 JS Documentation
             </header>
 
-            <section>
-                <a href="#introduction" class="nav-link">Introduction <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#whatToKnow" class="nav-link">What You Should Already Know <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#javaAndJavascript" class="nav-link">JavaScript And Java <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#helloWorld" class="nav-link">Hello World <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#variables" class="nav-link">Variables <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#declaringVariable" class="nav-link">Declaring Variables <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#variableScope" class="nav-link">Variable Scope <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#globalVariable" class="nav-link">Global Variables <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#constant" class="nav-link">Constants <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#dataType" class="nav-link">Data Types <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#ifElse" class="nav-link">If....else Statement <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#whileStatement" class="nav-link">While Statement <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#functionDeclaration" class="nav-link">Function Declaration <i class="fa-solid fa-caret-right"></i></a>
-                <a href="#reference" class="nav-link">References <i class="fa-solid fa-caret-right"></i></a>
+            <div id="menu">
+                <i class="fa-solid fa-bars" id="menuDrop"></i>
+            </div>
+
+            <section id="navSection">
+                <i class="fa-solid fa-rectangle-xmark" id="closeMenu"></i>
+
+                <a href="#Introduction" class="nav-link">Introduction<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#What_You_Should_Already_Know" class="nav-link">What You Should Already Know<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#JavaScript_And_Java" class="nav-link">JavaScript And Java<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Hello_World" class="nav-link">Hello World<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#variables" class="nav-link">Variables<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Declaring_Variables" class="nav-link">Declaring Variables<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Variable_Scope" class="nav-link">Variable Scope<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Global_Variable" class="nav-link">Global Variables<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Constants" class="nav-link">Constants<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Data_Types" class="nav-link">Data Types<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#If...Else_Statement" class="nav-link">If...else Statement<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#While_Statement" class="nav-link">While Statement<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#Function_Declarations" class="nav-link">Function Declarations<i class="fa-solid fa-caret-right"></i></a>
+                <a href="#References" class="nav-link">References<i class="fa-solid fa-caret-right"></i></a>
             </section>
 
         </nav>
@@ -39,7 +45,7 @@
         <main id="main-doc">
 
             <!-- Introduction -->
-            <section id="introduction" class="main-section">
+            <section id="Introduction" class="main-section">
                 <header>Introduction</header>
 
                 <p>
@@ -62,9 +68,9 @@
             </section>
 
             <!-- What You Should Already Know -->
-            <section id="whatToKnow" class="main-section">
+            <section id="What_You_Should_Already_Know" class="main-section">
                 <header>
-                    What you should already know
+                    What You Should Already Know
                 </header>
 
                 <p>
@@ -87,7 +93,7 @@
             </section>
 
             <!-- JavaScript and Java -->
-            <section id="javaAndJavascript" class="main-section">
+            <section id="JavaScript_And_Java" class="main-section">
                 <header>
                     JavaScript and Java
                 </header>
@@ -106,9 +112,9 @@
             </section>
 
             <!-- Hello World!!! -->
-            <section id="helloWorld" class="main-section">
+            <section id="Hello_World" class="main-section">
                 <header>
-                    Hello World!
+                    Hello World
                 </header>
 
                 <p>
@@ -146,7 +152,7 @@
             </section>
 
             <!-- Declaring Variable -->
-            <section id="declaringVariable" class="main-section">
+            <section id="Declaring_Variables" class="main-section">
                 <header>
                     Declaring Variables
                 </header>
@@ -193,7 +199,7 @@
             </section>
 
             <!-- Variable Scope -->
-            <section id="variableScope" class="main-section">
+            <section id="Variable_Scope" class="main-section">
                 <header>
                     Variable Scope
                 </header>
@@ -220,7 +226,7 @@
             </section>
 
             <!-- Global Variable -->
-            <section id="globalVariable" class="main-section">
+            <section id="Global_Variable" class="main-section">
                 <header>
                     Global Variable
                 </header>
@@ -235,9 +241,9 @@
             </section>
 
             <!-- Constant -->
-            <section id="constant" class="main-section">
+            <section id="Constants" class="main-section">
                 <header>
-                    Constant
+                    Constants
                 </header>
 
                 <p>
@@ -279,7 +285,7 @@
             </section>
 
             <!-- Data Types -->
-            <section id="dataType" class="main-section">
+            <section id="Data_Types" class="main-section">
                 <header>
                     Data Types
                 </header>
@@ -330,7 +336,7 @@
             </section>
 
             <!-- If Else Statement -->
-            <section id="ifElse" class="main-section">
+            <section id="If...Else_Statement" class="main-section">
                 <header>
                     If...Else Statement
                 </header>
@@ -401,7 +407,7 @@
             </section>
 
             <!-- While Statement -->
-            <section id="whileStatement" class="main-section">
+            <section id="While_Statement" class="main-section">
                 <header>
                     While Statement
                 </header>
@@ -465,7 +471,7 @@
             </section>
 
             <!-- Function Declaration -->
-            <section id="functionDeclaration" class="main-section">
+            <section id="Function_Declarations" class="main-section">
                 <header>
                     Function Declarations
                 </header>
@@ -509,7 +515,8 @@
                 </p>
             </section>
 
-            <section id="reference" class="main-section">
+            <!-- References -->
+            <section id="References" class="main-section">
                 <header>
                     References
                 </header>
@@ -519,7 +526,8 @@
                 </ul>
             </section>
 
-            <section id="socialMedia" class="main-section">
+            <!-- Social Media -->
+            <section id="socialMedia">
                 <a href="https://www.facebook.com/oloye.d.ibrahim" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="https://www.twitter.com/doiayokanmi" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/ibrahim-dhikirullahi-3747181a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -528,5 +536,11 @@
                 <a href="https://wa.me/2348057896279" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
             </section>
         </main>
+
+        <div id="goBtn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+
+        <script src="index.js"></script>
     </body>
 </html>

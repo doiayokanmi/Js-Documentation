@@ -42,6 +42,7 @@ code {
     display: block;
     background-color: #c6f9a7;
     color: red;
+    word-wrap: break-word;
     line-height: 2em;
     border-radius: 10px;
 }
@@ -104,6 +105,15 @@ main {
     max-height: 100vh;
 }
 
+#menuDrop, #closeMenu {
+    display: none;
+    font-size: 1.8em;
+    color: #fff;
+    position: fixed;
+    top: 18px;
+    right: 18px;
+}
+
 main header {
     font-weight: 300;
     font-size: 1.8em;
@@ -136,3 +146,40 @@ main ul li ul li {
     color: #205d54;
     text-align: center;
 }
+
+#goBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top left, #205d54, #c6f9a7);
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: block;
+        overflow: auto;
+    }
+
+    nav section {
+        display: none;
+    }
+
+    #menuDrop {
+        display: block;
+    }
+
+    #closeMenu {
+        display: block;
+    }
+}
+
+
+
