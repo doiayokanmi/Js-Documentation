@@ -123,3 +123,16 @@ main ul li ul li {
     margin: 0;
     list-style: "🐍";
 }
+
+#socialMedia {
+    padding: 0.9em;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-60%);
+    font-size: 1.8em;
+    color: #205d54;
+    text-align: center;
+}
